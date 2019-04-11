@@ -1,0 +1,11 @@
+#list是列表set是集合set是排好序的
+#round四舍五入，当末尾位为五时，前一位为奇数时，进一，偶数时则舍去
+#id()用来输出变量的地址
+a=3;b=42
+print(id(a))
+print(id(b))
+print(id(42))
+c=[1,2,3]
+print(id(c))
+c.append(4)
+print(id(c))
